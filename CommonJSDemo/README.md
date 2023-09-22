@@ -6,6 +6,12 @@ app.js导入module1、module2、module3，module1、module2、module3为三种�
 
 ## 关于 module.exports 和 exports 的区别
 
+module.exports 初始值为一个空对象 {}
+
+exports 是指向的 module.exports 的引用
+
+require() 返回的是 module.exports 而不是 exports
+
 会看到这样的写法：
 ```
 exports = module.exports = xxx
