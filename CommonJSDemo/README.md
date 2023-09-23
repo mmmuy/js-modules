@@ -1,4 +1,4 @@
-在node.js中简单使用CommonJS
+## 在node.js中简单使用CommonJS
 
 app.js导入module1、module2、module3，module1、module2、module3为三种导出模块的方式
 
